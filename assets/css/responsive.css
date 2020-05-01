@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px){
+    .navbar{
+        flex-direction:column;
+    }
+    ul.menu_nav{
+        width: 100%;
+    }
+    .header_bot-content{
+        flex-direction: column;
+    }
+    .content_logo{
+        margin-bottom: 2.5rem;
+    }
+    .search{
+        margin-left: 2.5rem;
+    }
+    .hide{
+        display: none;
+    }
+}

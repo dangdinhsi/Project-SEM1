@@ -1,0 +1,128 @@
+.header_top{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul.menu_nav{
+ display: flex;
+}
+.menu_nav li:last-child{
+    margin-right: 0;
+}
+li.menu_nav-item{
+    margin: 15px 38px 15px 0;
+    position: relative;
+}
+a.navbar_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: grey;
+}
+.navbar_link span{
+    margin-top: 3px;
+}
+a.navbar_link:hover{
+    color: #fd6500;
+}
+i.nav_icon{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+.separate::after{
+    content: "";
+    position: absolute;
+    border-left: 1px solid grey;
+    height: 3rem;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+}
+
+/* header-content */
+.header_bot{
+    border-bottom: 1px solid #ebebeb;
+    width: 100%;
+}
+.header_bot-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.content_logo{
+    width: 20%;
+}
+.content_logo img{
+    width: 80%;
+}
+.search{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    outline: none;
+}
+.search button:hover{
+    cursor: pointer;
+    background-color: tomato;
+}
+.button_search{
+    position: relative;
+    transform: translateX(-100%);
+    width: 5rem;
+    background-color: #FD6500;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+}
+.search_input{
+    padding-left: 2.5rem;
+    color: grey;
+    font-size: 1.8rem;
+    flex-grow: 1;
+    outline: none;
+    border-radius: 3rem;
+    border: 2px solid #ebebeb;
+}
+
+.button_cart{
+    width: 5rem;
+    margin-left: -2rem;
+    background-color: #FD6500;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+}
+.header-icon{
+    font-size: 1rem;
+    color: white;
+}
+.cart-icon{
+    font-size: 1.8rem;
+    color: white;
+}
+.infor_cart{
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.infor_cart span{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
