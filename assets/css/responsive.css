@@ -6,13 +6,23 @@
         width: 100%;
     }
     .header_bot-content{
+        padding: 2.5rem;
         flex-direction: column;
     }
     .content_logo{
         margin-bottom: 2.5rem;
     }
+    .content_logo img{
+        width: 100%;
+    }
     .search{
-        margin-left: 2.5rem;
+        height: 3rem;
+        width: 100%;
+        margin-left: 5rem;
+    }
+    .search_input{
+        padding-left: 1rem;
+        font-size: 1.2rem;
     }
     .hide{
         display: none;
